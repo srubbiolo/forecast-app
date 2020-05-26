@@ -3,8 +3,8 @@ import { AsyncTypeahead } from 'react-bootstrap-typeahead';
 import { useSelector, useDispatch } from 'react-redux';
 import { setCity, removeCity } from '../../actions/index';
 import  SearchedElement  from './SearchedElement';
-
 const SEARCH_URI = 'https://api.openweathermap.org/data/2.5/weather';
+
 const InputSearch = () => {
   const previousSearches = useSelector(state => state.allCities);
   const dispatch = useDispatch();
@@ -34,6 +34,7 @@ const InputSearch = () => {
     setToRemove(true)
   }
 
+  //TODO: do this on back end
   async function handleSearch (query) {
     setIsLoading(true);
     setOptions(previousSearches);
@@ -58,26 +59,6 @@ const InputSearch = () => {
 
   };
 
-  // function handleSearch2 (query) {
-  //   setIsLoading(true);
-  //   setOptions(previousSearches);
-    
-  //   let opt;
-  //   if (json.cod !== "404") {
-  //     if (previousSearches.findIndex(x => x.id === json.id) < 0) {
-  //       opt = [...previousSearches, {...json}];
-  //     } else {
-  //       opt = [...previousSearches]
-  //     }
-
-  //     setOptions(opt);
-  //   } else {
-  //     opt = [...previousSearches]
-  //     setOptions(opt);
-  //   }
-  //   setIsLoading(typeof json === Object);
-
-  // };
   return (
     <AsyncTypeahead
       id="async-input"
