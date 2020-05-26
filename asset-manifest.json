@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-forecast-app/static/css/main.3d733cfd.chunk.css",
-    "main.js": "/react-forecast-app/static/js/main.7c725754.chunk.js",
-    "main.js.map": "/react-forecast-app/static/js/main.7c725754.chunk.js.map",
-    "runtime-main.js": "/react-forecast-app/static/js/runtime-main.c1072c39.js",
-    "runtime-main.js.map": "/react-forecast-app/static/js/runtime-main.c1072c39.js.map",
-    "static/css/2.ae98c48f.chunk.css": "/react-forecast-app/static/css/2.ae98c48f.chunk.css",
-    "static/js/2.25bdabfd.chunk.js": "/react-forecast-app/static/js/2.25bdabfd.chunk.js",
-    "static/js/2.25bdabfd.chunk.js.map": "/react-forecast-app/static/js/2.25bdabfd.chunk.js.map",
-    "index.html": "/react-forecast-app/index.html",
-    "precache-manifest.27e516cd46768d31afb0223c2effa31b.js": "/react-forecast-app/precache-manifest.27e516cd46768d31afb0223c2effa31b.js",
-    "service-worker.js": "/react-forecast-app/service-worker.js",
-    "static/css/2.ae98c48f.chunk.css.map": "/react-forecast-app/static/css/2.ae98c48f.chunk.css.map",
-    "static/css/main.3d733cfd.chunk.css.map": "/react-forecast-app/static/css/main.3d733cfd.chunk.css.map",
-    "static/js/2.25bdabfd.chunk.js.LICENSE.txt": "/react-forecast-app/static/js/2.25bdabfd.chunk.js.LICENSE.txt"
+    "main.css": "/forecast-app/static/css/main.3d733cfd.chunk.css",
+    "main.js": "/forecast-app/static/js/main.c021506e.chunk.js",
+    "main.js.map": "/forecast-app/static/js/main.c021506e.chunk.js.map",
+    "runtime-main.js": "/forecast-app/static/js/runtime-main.febd37f6.js",
+    "runtime-main.js.map": "/forecast-app/static/js/runtime-main.febd37f6.js.map",
+    "static/css/2.ae98c48f.chunk.css": "/forecast-app/static/css/2.ae98c48f.chunk.css",
+    "static/js/2.25bdabfd.chunk.js": "/forecast-app/static/js/2.25bdabfd.chunk.js",
+    "static/js/2.25bdabfd.chunk.js.map": "/forecast-app/static/js/2.25bdabfd.chunk.js.map",
+    "index.html": "/forecast-app/index.html",
+    "precache-manifest.96229c9171f57b1c5f9aba856133cae0.js": "/forecast-app/precache-manifest.96229c9171f57b1c5f9aba856133cae0.js",
+    "service-worker.js": "/forecast-app/service-worker.js",
+    "static/css/2.ae98c48f.chunk.css.map": "/forecast-app/static/css/2.ae98c48f.chunk.css.map",
+    "static/css/main.3d733cfd.chunk.css.map": "/forecast-app/static/css/main.3d733cfd.chunk.css.map",
+    "static/js/2.25bdabfd.chunk.js.LICENSE.txt": "/forecast-app/static/js/2.25bdabfd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c1072c39.js",
+    "static/js/runtime-main.febd37f6.js",
     "static/css/2.ae98c48f.chunk.css",
     "static/js/2.25bdabfd.chunk.js",
     "static/css/main.3d733cfd.chunk.css",
-    "static/js/main.7c725754.chunk.js"
+    "static/js/main.c021506e.chunk.js"
   ]
 }
